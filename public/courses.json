@@ -1,0 +1,2442 @@
+[
+  {
+    "id": 1,
+    "course": "3-d Animation & Graphics"
+  },
+  {
+    "id": 2,
+    "course": "Advanced Communication And Information System"
+  },
+  {
+    "id": 3,
+    "course": "Advanced Computer Aided Design"
+  },
+  {
+    "id": 4,
+    "course": "Advanced Design And Manufacturing"
+  },
+  {
+    "id": 5,
+    "course": "Advanced Diploma In Marine Engineering And Systems"
+  },
+  {
+    "id": 6,
+    "course": "Advanced Electrical Power System"
+  },
+  {
+    "id": 7,
+    "course": "Advanced Electronics"
+  },
+  {
+    "id": 8,
+    "course": "Advanced Electronics And Communication Engineering"
+  },
+  {
+    "id": 9,
+    "course": "Advanced Manufacturing And Mechanical Systems Design"
+  },
+  {
+    "id": 10,
+    "course": "Advanced Manufacturing Systems"
+  },
+  {
+    "id": 11,
+    "course": "Advanced Manufacturing Technology"
+  },
+  {
+    "id": 12,
+    "course": "Advanced Materials Technology"
+  },
+  {
+    "id": 13,
+    "course": "Advanced Production Systems"
+  },
+  {
+    "id": 14,
+    "course": "Aero Dynamic Engineering"
+  },
+  {
+    "id": 15,
+    "course": "Aero Space Engineering"
+  },
+  {
+    "id": 16,
+    "course": "Aeronautical Engineering"
+  },
+  {
+    "id": 17,
+    "course": "Aerospace Proplusion Technology"
+  },
+  {
+    "id": 18,
+    "course": "Agricultural Engineering"
+  },
+  {
+    "id": 19,
+    "course": "Agricultural Technology"
+  },
+  {
+    "id": 20,
+    "course": "Agriculture Engineering"
+  },
+  {
+    "id": 21,
+    "course": "Air Armament"
+  },
+  {
+    "id": 22,
+    "course": "Aircraft Maintenance Engineering"
+  },
+  {
+    "id": 23,
+    "course": "Animation And Multimedia Technology"
+  },
+  {
+    "id": 24,
+    "course": "Applied Electronics"
+  },
+  {
+    "id": 25,
+    "course": "Applied Electronics & Instrumentation Engineering"
+  },
+  {
+    "id": 26,
+    "course": "Applied Electronics And Communications"
+  },
+  {
+    "id": 27,
+    "course": "Applied Instrumentation"
+  },
+  {
+    "id": 28,
+    "course": "Applied Videography"
+  },
+  {
+    "id": 29,
+    "course": "Armament Engineering (gun Fitter)"
+  },
+  {
+    "id": 30,
+    "course": "Artificer Training (electrical)"
+  },
+  {
+    "id": 31,
+    "course": "Artificer Training (electronics)"
+  },
+  {
+    "id": 32,
+    "course": "Artificer Training (mech)"
+  },
+  {
+    "id": 33,
+    "course": "Artificial Intelligence"
+  },
+  {
+    "id": 34,
+    "course": "Atmospheric Science"
+  },
+  {
+    "id": 35,
+    "course": "Audiography & Sound Engineering"
+  },
+  {
+    "id": 36,
+    "course": "Automated Manufacturing Systems"
+  },
+  {
+    "id": 37,
+    "course": "Automation"
+  },
+  {
+    "id": 38,
+    "course": "Automation And Control Power Systems"
+  },
+  {
+    "id": 39,
+    "course": "Automation And Robotics"
+  },
+  {
+    "id": 40,
+    "course": "Automobile Engineering"
+  },
+  {
+    "id": 41,
+    "course": "Automotive Electronics"
+  },
+  {
+    "id": 42,
+    "course": "Automotive Engineering"
+  },
+  {
+    "id": 43,
+    "course": "Automotive Technology"
+  },
+  {
+    "id": 44,
+    "course": "Avionics"
+  },
+  {
+    "id": 45,
+    "course": "Bio Electronics"
+  },
+  {
+    "id": 46,
+    "course": "Bio Metrics & Cyber Security"
+  },
+  {
+    "id": 47,
+    "course": "Biochemical Engineering"
+  },
+  {
+    "id": 48,
+    "course": "Biochemical Engineering And Biotechnology"
+  },
+  {
+    "id": 49,
+    "course": "Bioinformatics"
+  },
+  {
+    "id": 50,
+    "course": "Biomedical Electronics"
+  },
+  {
+    "id": 51,
+    "course": "Biomedical Engineering"
+  },
+  {
+    "id": 52,
+    "course": "Biomedical Instrumentation"
+  },
+  {
+    "id": 53,
+    "course": "Biomedical Signal Processing And Instrumentation"
+  },
+  {
+    "id": 54,
+    "course": "Bioprocess Engineering"
+  },
+  {
+    "id": 55,
+    "course": "Bioprocess Technology"
+  },
+  {
+    "id": 56,
+    "course": "Biotechnology"
+  },
+  {
+    "id": 57,
+    "course": "Biotechnology And Biochemical Engineering"
+  },
+  {
+    "id": 58,
+    "course": "Building And Construction Technology"
+  },
+  {
+    "id": 59,
+    "course": "Building Construction Technology"
+  },
+  {
+    "id": 60,
+    "course": "Cad/cam"
+  },
+  {
+    "id": 61,
+    "course": "Cad/cam Engineering"
+  },
+  {
+    "id": 62,
+    "course": "Cad/cam/cae"
+  },
+  {
+    "id": 63,
+    "course": "Cae"
+  },
+  {
+    "id": 64,
+    "course": "Campus Wide Network Design & Maintenance"
+  },
+  {
+    "id": 65,
+    "course": "Cddm"
+  },
+  {
+    "id": 66,
+    "course": "Cement And Ceramic Technology"
+  },
+  {
+    "id": 67,
+    "course": "Ceramic Engineering And Technology"
+  },
+  {
+    "id": 68,
+    "course": "Ceramic Technology"
+  },
+  {
+    "id": 69,
+    "course": "Ceramics Engineering"
+  },
+  {
+    "id": 70,
+    "course": "Chemical And Electro Chemical Engineering"
+  },
+  {
+    "id": 71,
+    "course": "Chemical Engineering"
+  },
+  {
+    "id": 72,
+    "course": "Chemical Engineering (plastic & Polymer)"
+  },
+  {
+    "id": 73,
+    "course": "Chemical Engineering [sf]"
+  },
+  {
+    "id": 74,
+    "course": "Chemical Processing In Textiles"
+  },
+  {
+    "id": 75,
+    "course": "Chemical Reaction Engineering"
+  },
+  {
+    "id": 76,
+    "course": "Chemical Science And Technology"
+  },
+  {
+    "id": 77,
+    "course": "Chemical Technology"
+  },
+  {
+    "id": 78,
+    "course": "Chemical Technology(rubber / Plastic)"
+  },
+  {
+    "id": 79,
+    "course": "Civil & Environmental Engineering"
+  },
+  {
+    "id": 80,
+    "course": "Civil & Rural Engineering"
+  },
+  {
+    "id": 81,
+    "course": "Civil (public Health & Environment) Engineering"
+  },
+  {
+    "id": 82,
+    "course": "Civil And Water Management Engineering"
+  },
+  {
+    "id": 83,
+    "course": "Civil Draftsman"
+  },
+  {
+    "id": 84,
+    "course": "Civil Engineering"
+  },
+  {
+    "id": 85,
+    "course": "Civil Engineering & Planning"
+  },
+  {
+    "id": 86,
+    "course": "Civil Engineering (2 Shift)"
+  },
+  {
+    "id": 87,
+    "course": "Civil Engineering (environmental Engineering)"
+  },
+  {
+    "id": 88,
+    "course": "Civil Engineering (public Health Engineering)"
+  },
+  {
+    "id": 89,
+    "course": "Civil Engineering (rural Engineering)"
+  },
+  {
+    "id": 90,
+    "course": "Civil Engineering (sandwich Pattern)"
+  },
+  {
+    "id": 91,
+    "course": "Civil Engineering (water Resourse And Management)"
+  },
+  {
+    "id": 92,
+    "course": "Civil Engineering Environment & Pollution Control"
+  },
+  {
+    "id": 93,
+    "course": "Civil Engineering(construction Technology)"
+  },
+  {
+    "id": 94,
+    "course": "Civil Environmental Engineering"
+  },
+  {
+    "id": 95,
+    "course": "Civil Technology"
+  },
+  {
+    "id": 96,
+    "course": "Civil(sfs Mode)"
+  },
+  {
+    "id": 97,
+    "course": "Commercial & Computer Practise"
+  },
+  {
+    "id": 98,
+    "course": "Communication & Signal Process"
+  },
+  {
+    "id": 99,
+    "course": "Communication And Information Systems"
+  },
+  {
+    "id": 100,
+    "course": "Communication And Networking"
+  },
+  {
+    "id": 101,
+    "course": "Communication Engineering"
+  },
+  {
+    "id": 102,
+    "course": "Communication Engineering And Signal Processing"
+  },
+  {
+    "id": 103,
+    "course": "Communication Networks"
+  },
+  {
+    "id": 104,
+    "course": "Communication Systems"
+  },
+  {
+    "id": 105,
+    "course": "Communications Engineering"
+  },
+  {
+    "id": 106,
+    "course": "Computational Analysis In Mechanical Science"
+  },
+  {
+    "id": 107,
+    "course": "Computational Mechanics"
+  },
+  {
+    "id": 108,
+    "course": "Computational Mechanics (mechanical Engineering)"
+  },
+  {
+    "id": 109,
+    "course": "Computational Techniques"
+  },
+  {
+    "id": 110,
+    "course": "Computer Aided Analysis And Design"
+  },
+  {
+    "id": 111,
+    "course": "Computer Aided Costume Design And Dress Making"
+  },
+  {
+    "id": 112,
+    "course": "Computer Aided Design"
+  },
+  {
+    "id": 113,
+    "course": "Computer Aided Design & Computer Adided Manufacture"
+  },
+  {
+    "id": 114,
+    "course": "Computer Aided Design And Manufacture"
+  },
+  {
+    "id": 115,
+    "course": "Computer Aided Design Manufacture And Automation"
+  },
+  {
+    "id": 116,
+    "course": "Computer Aided Design Manufacture And Engineering"
+  },
+  {
+    "id": 117,
+    "course": "Computer Aided Design Of Structures"
+  },
+  {
+    "id": 118,
+    "course": "Computer Aided Process Design"
+  },
+  {
+    "id": 119,
+    "course": "Computer Aided Structural Analysis And Design"
+  },
+  {
+    "id": 120,
+    "course": "Computer Aided Structural Engineering"
+  },
+  {
+    "id": 121,
+    "course": "Computer And Communication Engineering"
+  },
+  {
+    "id": 122,
+    "course": "Computer And Information Science"
+  },
+  {
+    "id": 123,
+    "course": "Computer Application & Business Management"
+  },
+  {
+    "id": 124,
+    "course": "Computer Applications"
+  },
+  {
+    "id": 125,
+    "course": "Computer Engineering"
+  },
+  {
+    "id": 126,
+    "course": "Computer Engineering & Application"
+  },
+  {
+    "id": 127,
+    "course": "Computer Engineering (co-edu)"
+  },
+  {
+    "id": 128,
+    "course": "Computer Engineering.(ind./int.)"
+  },
+  {
+    "id": 129,
+    "course": "Computer Hardware & Maintenance"
+  },
+  {
+    "id": 130,
+    "course": "Computer Hardware & Networking"
+  },
+  {
+    "id": 131,
+    "course": "Computer Networking"
+  },
+  {
+    "id": 132,
+    "course": "Computer Sceince & Engineering"
+  },
+  {
+    "id": 133,
+    "course": "Computer Science"
+  },
+  {
+    "id": 134,
+    "course": "Computer Science & Engineering"
+  },
+  {
+    "id": 135,
+    "course": "Computer Science & Technology"
+  },
+  {
+    "id": 136,
+    "course": "Computer Science And Information Technology"
+  },
+  {
+    "id": 137,
+    "course": "Computer Science And Systems Engineering"
+  },
+  {
+    "id": 138,
+    "course": "Computer Software Technology"
+  },
+  {
+    "id": 139,
+    "course": "Computer Technology"
+  },
+  {
+    "id": 140,
+    "course": "Computing In Computing"
+  },
+  {
+    "id": 141,
+    "course": "Computing In Multimedia"
+  },
+  {
+    "id": 142,
+    "course": "Computing In Software"
+  },
+  {
+    "id": 143,
+    "course": "Construction Engineering"
+  },
+  {
+    "id": 144,
+    "course": "Construction Engineerng And Management"
+  },
+  {
+    "id": 145,
+    "course": "Construction Technology"
+  },
+  {
+    "id": 146,
+    "course": "Construction Technology And Management"
+  },
+  {
+    "id": 147,
+    "course": "Control And Instrumentation"
+  },
+  {
+    "id": 148,
+    "course": "Cryogenic Engineering"
+  },
+  {
+    "id": 149,
+    "course": "Cyber Forensics"
+  },
+  {
+    "id": 150,
+    "course": "Cyber Forensics And Information Security"
+  },
+  {
+    "id": 151,
+    "course": "Cyber Security"
+  },
+  {
+    "id": 152,
+    "course": "Dairy Engineering"
+  },
+  {
+    "id": 153,
+    "course": "Data Sciences"
+  },
+  {
+    "id": 154,
+    "course": "Design And Production"
+  },
+  {
+    "id": 155,
+    "course": "Design And Thermal Engineering"
+  },
+  {
+    "id": 156,
+    "course": "Design Engineering"
+  },
+  {
+    "id": 157,
+    "course": "Design For Manufacturing"
+  },
+  {
+    "id": 158,
+    "course": "Design Of Mechanical Equipment"
+  },
+  {
+    "id": 159,
+    "course": "Design Of Mechanical Systems"
+  },
+  {
+    "id": 160,
+    "course": "Diary Technology"
+  },
+  {
+    "id": 161,
+    "course": "Digital Communication"
+  },
+  {
+    "id": 162,
+    "course": "Digital Communication Engineering"
+  },
+  {
+    "id": 163,
+    "course": "Digital Communications"
+  },
+  {
+    "id": 164,
+    "course": "Digital Communications And Networking"
+  },
+  {
+    "id": 165,
+    "course": "Digital Electronics"
+  },
+  {
+    "id": 166,
+    "course": "Digital Electronics & Microprocessor"
+  },
+  {
+    "id": 167,
+    "course": "Digital Electronics And Communication"
+  },
+  {
+    "id": 168,
+    "course": "Digital Electronics And Communication Engineering"
+  },
+  {
+    "id": 169,
+    "course": "Digital Electronics And Communication Systems"
+  },
+  {
+    "id": 170,
+    "course": "Digital Electronics Engineering"
+  },
+  {
+    "id": 171,
+    "course": "Digital Image Processing"
+  },
+  {
+    "id": 172,
+    "course": "Digital Instrumentation"
+  },
+  {
+    "id": 173,
+    "course": "Digital Signal Processing"
+  },
+  {
+    "id": 174,
+    "course": "Digital Systems"
+  },
+  {
+    "id": 175,
+    "course": "Digital Systems And Computer Electronics"
+  },
+  {
+    "id": 176,
+    "course": "Digital Techniques And Instrumentation"
+  },
+  {
+    "id": 177,
+    "course": "Digital Techniques For Design & Planning"
+  },
+  {
+    "id": 178,
+    "course": "Diploma In Handloom And Textile Technology"
+  },
+  {
+    "id": 179,
+    "course": "Diploma In Mechanical Engineering"
+  },
+  {
+    "id": 180,
+    "course": "Diploma In Textile Technology (man Made Fibre Technology)"
+  },
+  {
+    "id": 181,
+    "course": "Diploma Medical Lab Technology"
+  },
+  {
+    "id": 182,
+    "course": "Distributed And Mobile Computing"
+  },
+  {
+    "id": 183,
+    "course": "Distributed Systems"
+  },
+  {
+    "id": 184,
+    "course": "Drilling Engineering"
+  },
+  {
+    "id": 185,
+    "course": "Drilling Technology"
+  },
+  {
+    "id": 186,
+    "course": "Drugs And Pharmaceuticals"
+  },
+  {
+    "id": 187,
+    "course": "Dyestuff Technology"
+  },
+  {
+    "id": 188,
+    "course": "Earthquake Engineering"
+  },
+  {
+    "id": 189,
+    "course": "Ecg Technology"
+  },
+  {
+    "id": 190,
+    "course": "Electrical And Computer Engineering"
+  },
+  {
+    "id": 191,
+    "course": "Electrical And Electronics (power System)"
+  },
+  {
+    "id": 192,
+    "course": "Electrical And Electronics Engineering"
+  },
+  {
+    "id": 193,
+    "course": "Electrical And Electronics Engineering (sandwich)"
+  },
+  {
+    "id": 194,
+    "course": "Electrical And Instrumentation Engineering"
+  },
+  {
+    "id": 195,
+    "course": "Electrical And Mechanical Engineering"
+  },
+  {
+    "id": 196,
+    "course": "Electrical And Power Engineering"
+  },
+  {
+    "id": 197,
+    "course": "Electrical Energy Systems"
+  },
+  {
+    "id": 198,
+    "course": "Electrical Engineering"
+  },
+  {
+    "id": 199,
+    "course": "Electrical Engineering (electronics & Power)"
+  },
+  {
+    "id": 200,
+    "course": "Electrical Engineering Industrial Control"
+  },
+  {
+    "id": 201,
+    "course": "Electrical Instrumentation And Control Engineering"
+  },
+  {
+    "id": 202,
+    "course": "Electrical Power Engineering"
+  },
+  {
+    "id": 203,
+    "course": "Electrical, Electronics And Power"
+  },
+  {
+    "id": 204,
+    "course": "Electronic Engineering"
+  },
+  {
+    "id": 205,
+    "course": "Electronic Instrumentation And Control Engineering"
+  },
+  {
+    "id": 206,
+    "course": "Electronic Radio)"
+  },
+  {
+    "id": 207,
+    "course": "Electronic Science And Engineering"
+  },
+  {
+    "id": 208,
+    "course": "Electronics"
+  },
+  {
+    "id": 209,
+    "course": "Electronics & Avenoics"
+  },
+  {
+    "id": 210,
+    "course": "Electronics & Communication Engg"
+  },
+  {
+    "id": 211,
+    "course": "Electronics & Communication Engg(industry Integrated)"
+  },
+  {
+    "id": 212,
+    "course": "Electronics & Communication Engineering (industry Integrated)"
+  },
+  {
+    "id": 213,
+    "course": "Electronics & Computer Science"
+  },
+  {
+    "id": 214,
+    "course": "Electronics & Instrumentation Engineering"
+  },
+  {
+    "id": 215,
+    "course": "Electronics & Production"
+  },
+  {
+    "id": 216,
+    "course": "Electronics & Tele-communication Engineering"
+  },
+  {
+    "id": 217,
+    "course": "Electronics & Telecommunication Engineering (technologynician"
+  },
+  {
+    "id": 218,
+    "course": "Electronics & Video Engineering"
+  },
+  {
+    "id": 219,
+    "course": "Electronics (fiber Optics)"
+  },
+  {
+    "id": 220,
+    "course": "Electronics (robotics)"
+  },
+  {
+    "id": 221,
+    "course": "Electronics And Biomedical Engineering"
+  },
+  {
+    "id": 222,
+    "course": "Electronics And Communication Engineering (microwaves)"
+  },
+  {
+    "id": 223,
+    "course": "Electronics And Communication Engineering (sandwich)"
+  },
+  {
+    "id": 224,
+    "course": "Electronics And Communications Engineering"
+  },
+  {
+    "id": 225,
+    "course": "Electronics And Computer Engineering"
+  },
+  {
+    "id": 226,
+    "course": "Electronics And Control Systems"
+  },
+  {
+    "id": 227,
+    "course": "Electronics And Electrical Engineering"
+  },
+  {
+    "id": 228,
+    "course": "Electronics And Power Engineering"
+  },
+  {
+    "id": 229,
+    "course": "Electronics And Telecommunications Engineering"
+  },
+  {
+    "id": 230,
+    "course": "Electronics And Telematics Engineering"
+  },
+  {
+    "id": 231,
+    "course": "Electronics Design Technology"
+  },
+  {
+    "id": 232,
+    "course": "Electronics Engineering"
+  },
+  {
+    "id": 233,
+    "course": "Electronics Engineering (industry Integrated)"
+  },
+  {
+    "id": 234,
+    "course": "Electronics Engineering (micro Electronics)"
+  },
+  {
+    "id": 235,
+    "course": "Electronics Engineering (self-financed)"
+  },
+  {
+    "id": 236,
+    "course": "Electronics Engineering (specialization In Consumer Electronics)"
+  },
+  {
+    "id": 237,
+    "course": "Electronics Engineering Modern Consumer Electronics"
+  },
+  {
+    "id": 238,
+    "course": "Electronics Engineering With Microprocessor"
+  },
+  {
+    "id": 239,
+    "course": "Electronics Instrument & Control"
+  },
+  {
+    "id": 240,
+    "course": "Electronics Instrumentation And Control Engineering"
+  },
+  {
+    "id": 241,
+    "course": "Electronics Production And Maintenance"
+  },
+  {
+    "id": 242,
+    "course": "Electronics Robotics [sw] [sf]"
+  },
+  {
+    "id": 243,
+    "course": "Electronics System Engineering"
+  },
+  {
+    "id": 244,
+    "course": "Electronics Technology"
+  },
+  {
+    "id": 245,
+    "course": "Embedded And Real Time Systems"
+  },
+  {
+    "id": 246,
+    "course": "Embedded System & Computing"
+  },
+  {
+    "id": 247,
+    "course": "Embedded System And Vlsi"
+  },
+  {
+    "id": 248,
+    "course": "Embedded System And Vlsi Design"
+  },
+  {
+    "id": 249,
+    "course": "Embedded Systems"
+  },
+  {
+    "id": 250,
+    "course": "Embedded Systems Technologies"
+  },
+  {
+    "id": 251,
+    "course": "Energetic Materials & Polymers"
+  },
+  {
+    "id": 252,
+    "course": "Energy And Environmental Management"
+  },
+  {
+    "id": 253,
+    "course": "Energy Engineering"
+  },
+  {
+    "id": 254,
+    "course": "Energy Management"
+  },
+  {
+    "id": 255,
+    "course": "Energy Science And Technology"
+  },
+  {
+    "id": 256,
+    "course": "Energy Systems"
+  },
+  {
+    "id": 257,
+    "course": "Energy Systems Analysis And Design"
+  },
+  {
+    "id": 258,
+    "course": "Energy Systems And Management"
+  },
+  {
+    "id": 259,
+    "course": "Energy Systems Engineering"
+  },
+  {
+    "id": 260,
+    "course": "Energy Technology"
+  },
+  {
+    "id": 261,
+    "course": "Environment Engineering"
+  },
+  {
+    "id": 262,
+    "course": "Environmental Engineering"
+  },
+  {
+    "id": 263,
+    "course": "Environmental Science And Engineering"
+  },
+  {
+    "id": 264,
+    "course": "Environmental Science And Technology"
+  },
+  {
+    "id": 265,
+    "course": "Fabrication Technology"
+  },
+  {
+    "id": 266,
+    "course": "Fabrication Technology & Erection Engg (sandwitch Pattern)"
+  },
+  {
+    "id": 267,
+    "course": "Farm Machinery"
+  },
+  {
+    "id": 268,
+    "course": "Fibres And Textiles Processing Technology"
+  },
+  {
+    "id": 269,
+    "course": "Fisheries Technology"
+  },
+  {
+    "id": 270,
+    "course": "Food Biotechnology"
+  },
+  {
+    "id": 271,
+    "course": "Food Engineering And Technology"
+  },
+  {
+    "id": 272,
+    "course": "Food Processing & Preservation"
+  },
+  {
+    "id": 273,
+    "course": "Food Processing Technology"
+  },
+  {
+    "id": 274,
+    "course": "Food Technology"
+  },
+  {
+    "id": 275,
+    "course": "Food Technology And Management"
+  },
+  {
+    "id": 276,
+    "course": "Foundation Engineering"
+  },
+  {
+    "id": 277,
+    "course": "Foundry Technology"
+  },
+  {
+    "id": 278,
+    "course": "Fracture Mechanics"
+  },
+  {
+    "id": 279,
+    "course": "Fuel And Combustion"
+  },
+  {
+    "id": 280,
+    "course": "Gas Turbine Technology"
+  },
+  {
+    "id": 281,
+    "course": "Geo Informatics"
+  },
+  {
+    "id": 282,
+    "course": "Geoinformatics And Surveying Technology"
+  },
+  {
+    "id": 283,
+    "course": "Geomachines And Structures"
+  },
+  {
+    "id": 284,
+    "course": "Geomechanics And Structures"
+  },
+  {
+    "id": 285,
+    "course": "Geopraphic Information System (g.i.s.) & Global Positioning System"
+  },
+  {
+    "id": 286,
+    "course": "Geotechnical And Geoenvironmental Energy"
+  },
+  {
+    "id": 287,
+    "course": "Geotechnical Earthquake Engineering"
+  },
+  {
+    "id": 288,
+    "course": "Geotechnical Engineering"
+  },
+  {
+    "id": 289,
+    "course": "Geotechnology"
+  },
+  {
+    "id": 290,
+    "course": "Glass & Ceramics Engineering"
+  },
+  {
+    "id": 291,
+    "course": "Green Technology"
+  },
+  {
+    "id": 292,
+    "course": "Guidance And Navigation Control"
+  },
+  {
+    "id": 293,
+    "course": "Guided Missiles"
+  },
+  {
+    "id": 294,
+    "course": "Handloom & Textile Technology"
+  },
+  {
+    "id": 295,
+    "course": "Health Care Technology"
+  },
+  {
+    "id": 296,
+    "course": "Health Science And Water Engineering"
+  },
+  {
+    "id": 297,
+    "course": "Heat And Power"
+  },
+  {
+    "id": 298,
+    "course": "Heat Power And Thermal Engineering"
+  },
+  {
+    "id": 299,
+    "course": "Heat Power Engineering"
+  },
+  {
+    "id": 300,
+    "course": "High Voltage And Power Systems Engineering"
+  },
+  {
+    "id": 301,
+    "course": "High Voltage Engineering"
+  },
+  {
+    "id": 302,
+    "course": "Highway Engineering"
+  },
+  {
+    "id": 303,
+    "course": "Highway Technology"
+  },
+  {
+    "id": 304,
+    "course": "Hill Area Development Engineering"
+  },
+  {
+    "id": 305,
+    "course": "Hydraulics & Flood Control"
+  },
+  {
+    "id": 306,
+    "course": "Hydraulics Engineering"
+  },
+  {
+    "id": 307,
+    "course": "I.t. (courseware Engineering)"
+  },
+  {
+    "id": 308,
+    "course": "Illumination Engineering"
+  },
+  {
+    "id": 309,
+    "course": "Illumination Technology & Design"
+  },
+  {
+    "id": 310,
+    "course": "Image Processing"
+  },
+  {
+    "id": 311,
+    "course": "Industrial And Production Engineering"
+  },
+  {
+    "id": 312,
+    "course": "Industrial Biotechnology"
+  },
+  {
+    "id": 313,
+    "course": "Industrial Electronics"
+  },
+  {
+    "id": 314,
+    "course": "Industrial Electronics(sandwitch Pattern)"
+  },
+  {
+    "id": 315,
+    "course": "Industrial Engineering"
+  },
+  {
+    "id": 316,
+    "course": "Industrial Engineering And Management"
+  },
+  {
+    "id": 317,
+    "course": "Industrial Production Engineering"
+  },
+  {
+    "id": 318,
+    "course": "Information And Communication Technology"
+  },
+  {
+    "id": 319,
+    "course": "Information Engineering"
+  },
+  {
+    "id": 320,
+    "course": "Information Science And Engineering"
+  },
+  {
+    "id": 321,
+    "course": "Information Science And Technology"
+  },
+  {
+    "id": 322,
+    "course": "Information Technology"
+  },
+  {
+    "id": 323,
+    "course": "Information Technology And Engineering"
+  },
+  {
+    "id": 324,
+    "course": "Information Technology Enabled Services And Management"
+  },
+  {
+    "id": 325,
+    "course": "Instrument Technology"
+  },
+  {
+    "id": 326,
+    "course": "Instrumentation"
+  },
+  {
+    "id": 327,
+    "course": "Instrumentation & Control"
+  },
+  {
+    "id": 328,
+    "course": "Instrumentation & Control Engineering"
+  },
+  {
+    "id": 329,
+    "course": "Instrumentation & Electronics"
+  },
+  {
+    "id": 330,
+    "course": "Instrumentation Engineering"
+  },
+  {
+    "id": 331,
+    "course": "Instrumentation Technology"
+  },
+  {
+    "id": 332,
+    "course": "Instruments And Medical Equipment"
+  },
+  {
+    "id": 333,
+    "course": "Integrated Circuits Technology"
+  },
+  {
+    "id": 334,
+    "course": "Integrated Power Systems"
+  },
+  {
+    "id": 335,
+    "course": "Intelligent Systems"
+  },
+  {
+    "id": 336,
+    "course": "Internal Combustion And Automobiles"
+  },
+  {
+    "id": 337,
+    "course": "Internal Combustion Engienes And Turbo Machinery"
+  },
+  {
+    "id": 338,
+    "course": "Internal Combustion Engineering"
+  },
+  {
+    "id": 339,
+    "course": "Irrigation And Drainage Engineering"
+  },
+  {
+    "id": 340,
+    "course": "Irrigation Engineering"
+  },
+  {
+    "id": 341,
+    "course": "Jute And Fibre Technology"
+  },
+  {
+    "id": 342,
+    "course": "Laser And Electro Optics"
+  },
+  {
+    "id": 343,
+    "course": "Laser Science And Applications"
+  },
+  {
+    "id": 344,
+    "course": "Laser Technology"
+  },
+  {
+    "id": 345,
+    "course": "Leather Technology"
+  },
+  {
+    "id": 346,
+    "course": "Leather Technology Footwear Computer Aided Shoe Design"
+  },
+  {
+    "id": 347,
+    "course": "Machine Design"
+  },
+  {
+    "id": 348,
+    "course": "Machine Design And Robotics"
+  },
+  {
+    "id": 349,
+    "course": "Machine Engineering"
+  },
+  {
+    "id": 350,
+    "course": "Machine Tools & Maintenance Engineering"
+  },
+  {
+    "id": 351,
+    "course": "Machine Tools Technology"
+  },
+  {
+    "id": 352,
+    "course": "Maintenance Engineering"
+  },
+  {
+    "id": 353,
+    "course": "Manufacturing Engineering"
+  },
+  {
+    "id": 354,
+    "course": "Manufacturing Engineering And Technology"
+  },
+  {
+    "id": 355,
+    "course": "Manufacturing Process & Automation Engineering"
+  },
+  {
+    "id": 356,
+    "course": "Manufacturing Science And Engineering"
+  },
+  {
+    "id": 357,
+    "course": "Manufacturing Technology"
+  },
+  {
+    "id": 358,
+    "course": "Marine Engineering"
+  },
+  {
+    "id": 359,
+    "course": "Marine Engineering & Systems(artificer Training)"
+  },
+  {
+    "id": 360,
+    "course": "Marine Engineering And Systems"
+  },
+  {
+    "id": 361,
+    "course": "Marine Technology"
+  },
+  {
+    "id": 362,
+    "course": "Master Of Science In Software Engineering"
+  },
+  {
+    "id": 363,
+    "course": "Material Science And Technology"
+  },
+  {
+    "id": 364,
+    "course": "Materical Engineering(nanotechnology)"
+  },
+  {
+    "id": 365,
+    "course": "Mechanical (computer Aided Design, Manufacture & Engineering)"
+  },
+  {
+    "id": 366,
+    "course": "Mechanical And Automation Engineering"
+  },
+  {
+    "id": 367,
+    "course": "Mechanical Cad/cam"
+  },
+  {
+    "id": 368,
+    "course": "Mechanical Engg (manufacturing Technology)"
+  },
+  {
+    "id": 369,
+    "course": "Mechanical Engg(industry Integrated)"
+  },
+  {
+    "id": 370,
+    "course": "Mechanical Engg(sandwitch Pattern)"
+  },
+  {
+    "id": 371,
+    "course": "Mechanical Engineering"
+  },
+  {
+    "id": 372,
+    "course": "Mechanical Engineering (auto)"
+  },
+  {
+    "id": 373,
+    "course": "Mechanical Engineering (maintenance)"
+  },
+  {
+    "id": 374,
+    "course": "Mechanical Engineering (prod)"
+  },
+  {
+    "id": 375,
+    "course": "Mechanical Engineering (refrigeration & Air-conditioning)(sf)"
+  },
+  {
+    "id": 376,
+    "course": "Mechanical Engineering (sandwich Pattern)"
+  },
+  {
+    "id": 377,
+    "course": "Mechanical Engineering (sandwich)"
+  },
+  {
+    "id": 378,
+    "course": "Mechanical Engineering (tool & Die)"
+  },
+  {
+    "id": 379,
+    "course": "Mechanical Engineering Auto Mobile"
+  },
+  {
+    "id": 380,
+    "course": "Mechanical Engineering Power Plant Engineering"
+  },
+  {
+    "id": 381,
+    "course": "Mechanical Engineering Specialization In Cad"
+  },
+  {
+    "id": 382,
+    "course": "Mechanical Engineering Tool Engineering"
+  },
+  {
+    "id": 383,
+    "course": "Mechanical Engineering Tube Well Engineering"
+  },
+  {
+    "id": 384,
+    "course": "Mechanical Engineering( Production)"
+  },
+  {
+    "id": 385,
+    "course": "Mechanical Engineering(foundary)(sw)"
+  },
+  {
+    "id": 386,
+    "course": "Mechanical Engineering(machine Tool Maintenance & Repairs)(sw)"
+  },
+  {
+    "id": 387,
+    "course": "Mechanical Engineering(repair And Maintenance)"
+  },
+  {
+    "id": 388,
+    "course": "Mechanical Welding And Sheet Metal"
+  },
+  {
+    "id": 389,
+    "course": "Mechanical Welding And Sheet Metal Engineering"
+  },
+  {
+    "id": 390,
+    "course": "Mechanical(computer Integrated Manufacturing)"
+  },
+  {
+    "id": 391,
+    "course": "Mechanical-computer Aided Design/computer Aided Manufacturing"
+  },
+  {
+    "id": 392,
+    "course": "Mechanical-manufacturing Engineering"
+  },
+  {
+    "id": 393,
+    "course": "Mechatronics"
+  },
+  {
+    "id": 394,
+    "course": "Mechatronics-sandwich"
+  },
+  {
+    "id": 395,
+    "course": "Medical Electronics"
+  },
+  {
+    "id": 396,
+    "course": "Medical Electronics Engineering"
+  },
+  {
+    "id": 397,
+    "course": "Metallurgical And Materials Engineering"
+  },
+  {
+    "id": 398,
+    "course": "Metallurgical Engineering"
+  },
+  {
+    "id": 399,
+    "course": "Metallurgy"
+  },
+  {
+    "id": 400,
+    "course": "Metallurgy And Material Technology"
+  },
+  {
+    "id": 401,
+    "course": "Micro And Nano Electronics"
+  },
+  {
+    "id": 402,
+    "course": "Micro Electronics"
+  },
+  {
+    "id": 403,
+    "course": "Micro Electronics & Vlsi Design"
+  },
+  {
+    "id": 404,
+    "course": "Micro Electronics And Control Systems"
+  },
+  {
+    "id": 405,
+    "course": "Micro Electronics Engineering"
+  },
+  {
+    "id": 406,
+    "course": "Microwave & Optical Communication"
+  },
+  {
+    "id": 407,
+    "course": "Microwave And Communication Engineering"
+  },
+  {
+    "id": 408,
+    "course": "Microwave And Millimeter Engineering"
+  },
+  {
+    "id": 409,
+    "course": "Microwave And Radar Engineering"
+  },
+  {
+    "id": 410,
+    "course": "Microwave And Tv Engineering"
+  },
+  {
+    "id": 411,
+    "course": "Microwave Engineering"
+  },
+  {
+    "id": 412,
+    "course": "Microwaves"
+  },
+  {
+    "id": 413,
+    "course": "Mine Engineering"
+  },
+  {
+    "id": 414,
+    "course": "Mine Surveying"
+  },
+  {
+    "id": 415,
+    "course": "Mineral Exploration"
+  },
+  {
+    "id": 416,
+    "course": "Mining & Mine Surveying"
+  },
+  {
+    "id": 417,
+    "course": "Mining Engineering"
+  },
+  {
+    "id": 418,
+    "course": "Mobile Communication And Network Technology"
+  },
+  {
+    "id": 419,
+    "course": "Mobile Technology"
+  },
+  {
+    "id": 420,
+    "course": "Modern Communication Engineering"
+  },
+  {
+    "id": 421,
+    "course": "Molecular Medicine"
+  },
+  {
+    "id": 422,
+    "course": "Multimedia And Software Engineering"
+  },
+  {
+    "id": 423,
+    "course": "Multimedia Technology"
+  },
+  {
+    "id": 424,
+    "course": "Nano Science & Technology"
+  },
+  {
+    "id": 425,
+    "course": "Nano Technology"
+  },
+  {
+    "id": 426,
+    "course": "Naval Architecture & Ship Building Engg"
+  },
+  {
+    "id": 427,
+    "course": "Network Engineering"
+  },
+  {
+    "id": 428,
+    "course": "Networking"
+  },
+  {
+    "id": 429,
+    "course": "Networking And Internet Engineering"
+  },
+  {
+    "id": 430,
+    "course": "Neural Networks"
+  },
+  {
+    "id": 431,
+    "course": "Nuclear Engineering"
+  },
+  {
+    "id": 432,
+    "course": "Nuclear Science And Technology"
+  },
+  {
+    "id": 433,
+    "course": "Oil And Paint Technology"
+  },
+  {
+    "id": 434,
+    "course": "Oil Technology"
+  },
+  {
+    "id": 435,
+    "course": "Oils, Oleochemicals And Surfactants Technology"
+  },
+  {
+    "id": 436,
+    "course": "Ophthalmic Technology"
+  },
+  {
+    "id": 437,
+    "course": "Optical Engineering"
+  },
+  {
+    "id": 438,
+    "course": "Optics And Optoelectronics"
+  },
+  {
+    "id": 439,
+    "course": "Opto Electronics & Communication Systems"
+  },
+  {
+    "id": 440,
+    "course": "Opto-electronics Engineering"
+  },
+  {
+    "id": 441,
+    "course": "Optoelectronics & Communication"
+  },
+  {
+    "id": 442,
+    "course": "Optoelectronics -optical Communication"
+  },
+  {
+    "id": 443,
+    "course": "Optoelectronics And Laser Technology"
+  },
+  {
+    "id": 444,
+    "course": "Paint Technology"
+  },
+  {
+    "id": 445,
+    "course": "Parallel Distributed Systems"
+  },
+  {
+    "id": 446,
+    "course": "Perfumery And Flavour Technology"
+  },
+  {
+    "id": 447,
+    "course": "Pervasive Computing Technology"
+  },
+  {
+    "id": 448,
+    "course": "Petrochem And Petroleum Refinery Engineering"
+  },
+  {
+    "id": 449,
+    "course": "Petrochem Engineering"
+  },
+  {
+    "id": 450,
+    "course": "Petrochemical Engineering"
+  },
+  {
+    "id": 451,
+    "course": "Petrochemical Technology"
+  },
+  {
+    "id": 452,
+    "course": "Petroleum Engineering"
+  },
+  {
+    "id": 453,
+    "course": "Petroleum Technology"
+  },
+  {
+    "id": 454,
+    "course": "Pharmaceuticals And Fine Chemical Technology"
+  },
+  {
+    "id": 455,
+    "course": "Pharmaceuticals Chemistry And Technology"
+  },
+  {
+    "id": 456,
+    "course": "Photography"
+  },
+  {
+    "id": 457,
+    "course": "Physical Metallurgy"
+  },
+  {
+    "id": 458,
+    "course": "Plant Design"
+  },
+  {
+    "id": 459,
+    "course": "Plastic & Mould Technology"
+  },
+  {
+    "id": 460,
+    "course": "Plastic And Polymer Engineering"
+  },
+  {
+    "id": 461,
+    "course": "Plastic Engineering"
+  },
+  {
+    "id": 462,
+    "course": "Plastic Mould Technology"
+  },
+  {
+    "id": 463,
+    "course": "Plastic Mould Technology (dpmt)"
+  },
+  {
+    "id": 464,
+    "course": "Plastic Mould Technology (dpmt/pdpmt)"
+  },
+  {
+    "id": 465,
+    "course": "Plastic Technology"
+  },
+  {
+    "id": 466,
+    "course": "Plastic Technology (dpt/pdpt)"
+  },
+  {
+    "id": 467,
+    "course": "Plastics Engineering"
+  },
+  {
+    "id": 468,
+    "course": "Plastics Technology"
+  },
+  {
+    "id": 469,
+    "course": "Polymer Engineering"
+  },
+  {
+    "id": 470,
+    "course": "Polymer Engineering And Technology"
+  },
+  {
+    "id": 471,
+    "course": "Polymer Science & Chemical Technology"
+  },
+  {
+    "id": 472,
+    "course": "Polymer Science And Technology"
+  },
+  {
+    "id": 473,
+    "course": "Polymer Technology"
+  },
+  {
+    "id": 474,
+    "course": "Post Plastic Mould Design"
+  },
+  {
+    "id": 475,
+    "course": "Power And Energy Engineering"
+  },
+  {
+    "id": 476,
+    "course": "Power And Industrial Drives"
+  },
+  {
+    "id": 477,
+    "course": "Power Control And Drives"
+  },
+  {
+    "id": 478,
+    "course": "Power Electronics"
+  },
+  {
+    "id": 479,
+    "course": "Power Electronics And Instrumentation Engineering"
+  },
+  {
+    "id": 480,
+    "course": "Power Electronics Engineering"
+  },
+  {
+    "id": 481,
+    "course": "Power Engineering"
+  },
+  {
+    "id": 482,
+    "course": "Power Systems Engineering"
+  },
+  {
+    "id": 483,
+    "course": "Pre Stressed Concrete"
+  },
+  {
+    "id": 484,
+    "course": "Precision Manufacturing"
+  },
+  {
+    "id": 485,
+    "course": "Printing And Packing Technology"
+  },
+  {
+    "id": 486,
+    "course": "Printing Engineering & Graphics Communication"
+  },
+  {
+    "id": 487,
+    "course": "Printing Technology"
+  },
+  {
+    "id": 488,
+    "course": "Process And Food Engineering"
+  },
+  {
+    "id": 489,
+    "course": "Process Control Instrumentation"
+  },
+  {
+    "id": 490,
+    "course": "Process Dynamics And Control"
+  },
+  {
+    "id": 491,
+    "course": "Process Instrumentation"
+  },
+  {
+    "id": 492,
+    "course": "Process Metallurgy"
+  },
+  {
+    "id": 493,
+    "course": "Product Design"
+  },
+  {
+    "id": 494,
+    "course": "Product Design And Commerce"
+  },
+  {
+    "id": 495,
+    "course": "Product Design And Development"
+  },
+  {
+    "id": 496,
+    "course": "Product Design And Manufacturing"
+  },
+  {
+    "id": 497,
+    "course": "Production And Industrial Engineering"
+  },
+  {
+    "id": 498,
+    "course": "Production Engineering"
+  },
+  {
+    "id": 499,
+    "course": "Production Engineering (sandwich)"
+  },
+  {
+    "id": 500,
+    "course": "Production Engineering And Engineering Design"
+  },
+  {
+    "id": 501,
+    "course": "Production Engineering System Technology"
+  },
+  {
+    "id": 502,
+    "course": "Production Technology"
+  },
+  {
+    "id": 503,
+    "course": "Propulsion Engineering"
+  },
+  {
+    "id": 504,
+    "course": "Pulp Technology"
+  },
+  {
+    "id": 505,
+    "course": "Radar & Communication"
+  },
+  {
+    "id": 506,
+    "course": "Radio Frequency And Microwave Engineering"
+  },
+  {
+    "id": 507,
+    "course": "Radio Physics And Electronics"
+  },
+  {
+    "id": 508,
+    "course": "Refrigerator And Air Conditioning"
+  },
+  {
+    "id": 509,
+    "course": "Remote Sensing"
+  },
+  {
+    "id": 510,
+    "course": "Remote Sensing And Wireless Sensor Networks"
+  },
+  {
+    "id": 511,
+    "course": "Renewable Energy"
+  },
+  {
+    "id": 512,
+    "course": "Robotics And Automation"
+  },
+  {
+    "id": 513,
+    "course": "Robotics And Mechatronics"
+  },
+  {
+    "id": 514,
+    "course": "Rocket Propulsion"
+  },
+  {
+    "id": 515,
+    "course": "Rubber Technology"
+  },
+  {
+    "id": 516,
+    "course": "Safety And Fire Engineering"
+  },
+  {
+    "id": 517,
+    "course": "Scientific Computing"
+  },
+  {
+    "id": 518,
+    "course": "Seismic Design And Earthquake Engineering"
+  },
+  {
+    "id": 519,
+    "course": "Shipbuilding Engineering"
+  },
+  {
+    "id": 520,
+    "course": "Signal Processing"
+  },
+  {
+    "id": 521,
+    "course": "Signal Processing And Communications"
+  },
+  {
+    "id": 522,
+    "course": "Signal Processing And Embedded Systems"
+  },
+  {
+    "id": 523,
+    "course": "Silk Technology"
+  },
+  {
+    "id": 524,
+    "course": "Software Engineering"
+  },
+  {
+    "id": 525,
+    "course": "Software Systems"
+  },
+  {
+    "id": 526,
+    "course": "Soil And Water Conservation Engineering"
+  },
+  {
+    "id": 527,
+    "course": "Soil Mechanics"
+  },
+  {
+    "id": 528,
+    "course": "Soil Mechanics And Foundation Engineering"
+  },
+  {
+    "id": 529,
+    "course": "Sound Recording And Engineering"
+  },
+  {
+    "id": 530,
+    "course": "Spatial Information Technology"
+  },
+  {
+    "id": 531,
+    "course": "Steel Technology"
+  },
+  {
+    "id": 532,
+    "course": "Structural And Foundation Engineering"
+  },
+  {
+    "id": 533,
+    "course": "Structural Design"
+  },
+  {
+    "id": 534,
+    "course": "Structural Dynamics And Earthquake Engineering"
+  },
+  {
+    "id": 535,
+    "course": "Structural Engineering"
+  },
+  {
+    "id": 536,
+    "course": "Structural Engineering And Construction"
+  },
+  {
+    "id": 537,
+    "course": "Sugar Technology"
+  },
+  {
+    "id": 538,
+    "course": "Surface Coating Technology"
+  },
+  {
+    "id": 539,
+    "course": "System And Network Security"
+  },
+  {
+    "id": 540,
+    "course": "System Management"
+  },
+  {
+    "id": 541,
+    "course": "System Software"
+  },
+  {
+    "id": 542,
+    "course": "Systems And Signal Processing"
+  },
+  {
+    "id": 543,
+    "course": "Technical Textile"
+  },
+  {
+    "id": 544,
+    "course": "Technician X-ray Technology"
+  },
+  {
+    "id": 545,
+    "course": "Telecommunication Engineering"
+  },
+  {
+    "id": 546,
+    "course": "Telecommunication Technology"
+  },
+  {
+    "id": 547,
+    "course": "Telematics"
+  },
+  {
+    "id": 548,
+    "course": "Textile Chemistry"
+  },
+  {
+    "id": 549,
+    "course": "Textile Design"
+  },
+  {
+    "id": 550,
+    "course": "Textile Designing"
+  },
+  {
+    "id": 551,
+    "course": "Textile Engineering"
+  },
+  {
+    "id": 552,
+    "course": "Textile Manufactures"
+  },
+  {
+    "id": 553,
+    "course": "Textile Manufacturing And Technology"
+  },
+  {
+    "id": 554,
+    "course": "Textile Marketing & Mgt"
+  },
+  {
+    "id": 555,
+    "course": "Textile Plant Engineering"
+  },
+  {
+    "id": 556,
+    "course": "Textile Processing"
+  },
+  {
+    "id": 557,
+    "course": "Textile Technology"
+  },
+  {
+    "id": 558,
+    "course": "Textile Technology (sandwich)"
+  },
+  {
+    "id": 559,
+    "course": "Textile Technology( Textile Design & Weaving)"
+  },
+  {
+    "id": 560,
+    "course": "Textile Technology(manmade Fibre )"
+  },
+  {
+    "id": 561,
+    "course": "Thermal And Fluid Engineering"
+  },
+  {
+    "id": 562,
+    "course": "Thermal Engineering"
+  },
+  {
+    "id": 563,
+    "course": "Thermal Power Engineering"
+  },
+  {
+    "id": 564,
+    "course": "Thermal Science"
+  },
+  {
+    "id": 565,
+    "course": "Thermal Science Engineering"
+  },
+  {
+    "id": 566,
+    "course": "Thermal Sciences & Energy Systems"
+  },
+  {
+    "id": 567,
+    "course": "Thermal Systems And Design"
+  },
+  {
+    "id": 568,
+    "course": "Tool & Die Making"
+  },
+  {
+    "id": 569,
+    "course": "Tool And Die Engineering"
+  },
+  {
+    "id": 570,
+    "course": "Tool And Die Under Mechanical Engineering"
+  },
+  {
+    "id": 571,
+    "course": "Tool Design"
+  },
+  {
+    "id": 572,
+    "course": "Tool Die & Mould Making"
+  },
+  {
+    "id": 573,
+    "course": "Tool Engineering"
+  },
+  {
+    "id": 574,
+    "course": "Traffic And Transporting Engineering"
+  },
+  {
+    "id": 575,
+    "course": "Transportation Engineering"
+  },
+  {
+    "id": 576,
+    "course": "Transportation Engineering And Management"
+  },
+  {
+    "id": 577,
+    "course": "Transportation System Engineering"
+  },
+  {
+    "id": 578,
+    "course": "Tribology And Maintenance"
+  },
+  {
+    "id": 579,
+    "course": "Turbo Machinery"
+  },
+  {
+    "id": 580,
+    "course": "Tv & Sound Engineering"
+  },
+  {
+    "id": 581,
+    "course": "Virtual Prototyping & Digital Manufacturing"
+  },
+  {
+    "id": 582,
+    "course": "Vlsi"
+  },
+  {
+    "id": 583,
+    "course": "Vlsi And Embedded Systems"
+  },
+  {
+    "id": 584,
+    "course": "Vlsi And Embedded Systems Design"
+  },
+  {
+    "id": 585,
+    "course": "Vlsi And Microelectronics"
+  },
+  {
+    "id": 586,
+    "course": "Vlsi Design"
+  },
+  {
+    "id": 587,
+    "course": "Vlsi Design And Embedded Systems"
+  },
+  {
+    "id": 588,
+    "course": "Vlsi Design And Signal Processing"
+  },
+  {
+    "id": 589,
+    "course": "Vlsi Design And Testing"
+  },
+  {
+    "id": 590,
+    "course": "Vlsi System Design"
+  },
+  {
+    "id": 591,
+    "course": "Vlsi Systems"
+  },
+  {
+    "id": 592,
+    "course": "Water And Environmental Technology"
+  },
+  {
+    "id": 593,
+    "course": "Water Resource Engineering"
+  },
+  {
+    "id": 594,
+    "course": "Water Resource Management"
+  },
+  {
+    "id": 595,
+    "course": "Water Resources & Hydraulic Engg"
+  },
+  {
+    "id": 596,
+    "course": "Water Resources And Enviromental Engineering"
+  },
+  {
+    "id": 597,
+    "course": "Water Resources And Hydro Informatics"
+  },
+  {
+    "id": 598,
+    "course": "Water Technology And Health Science"
+  },
+  {
+    "id": 599,
+    "course": "Weapons Engineering"
+  },
+  {
+    "id": 600,
+    "course": "Web Designing"
+  },
+  {
+    "id": 601,
+    "course": "Web Technologies"
+  },
+  {
+    "id": 602,
+    "course": "Wired And Wireless Communication"
+  },
+  {
+    "id": 603,
+    "course": "Wireless And Mobile Communications"
+  },
+  {
+    "id": 604,
+    "course": "Wireless Communication & Computing"
+  },
+  {
+    "id": 605,
+    "course": "Wireless Communication Technology"
+  },
+  {
+    "id": 606,
+    "course": "Wireless Communications"
+  },
+  {
+    "id": 607,
+    "course": "Wireless Networks And Applications"
+  },
+  {
+    "id": 608,
+    "course": "Wireless Technology"
+  },
+  {
+    "id": 609,
+    "course": "Wood And Paper Technology"
+  },
+  {
+    "id": 610,
+    "course": "Wood Technology"
+  }
+]

@@ -1,0 +1,710 @@
+[
+  {
+    "id": 1,
+    "subject": "Adaptive Signal Processing"
+  },
+  {
+    "id": 2,
+    "subject": "Advance Algorithms"
+  },
+  {
+    "id": 3,
+    "subject": "Advance Computer Architecture"
+  },
+  {
+    "id": 4,
+    "subject": "Advance Java Programming"
+  },
+  {
+    "id": 5,
+    "subject": "Advance Operating System"
+  },
+  {
+    "id": 6,
+    "subject": "Advance Workshop Technology"
+  },
+  {
+    "id": 7,
+    "subject": "Advanced Digital System Design"
+  },
+  {
+    "id": 8,
+    "subject": "Advanced Farm Power"
+  },
+  {
+    "id": 9,
+    "subject": "Agricultural Business Management"
+  },
+  {
+    "id": 10,
+    "subject": "Air Conditioning Tea Technology"
+  },
+  {
+    "id": 11,
+    "subject": "Analog & Digital Communication"
+  },
+  {
+    "id": 12,
+    "subject": "Analog & Digital Communication Lab"
+  },
+  {
+    "id": 13,
+    "subject": "Analog Electronic Circuit"
+  },
+  {
+    "id": 14,
+    "subject": "Analog Electronic Circuit Lab"
+  },
+  {
+    "id": 15,
+    "subject": "Analog Vlsi Design"
+  },
+  {
+    "id": 16,
+    "subject": "Antenas & Wave Propagation"
+  },
+  {
+    "id": 17,
+    "subject": "Aquacultural Engineering"
+  },
+  {
+    "id": 18,
+    "subject": "Artificial Intelligence"
+  },
+  {
+    "id": 19,
+    "subject": "Basic Electrical Engineering"
+  },
+  {
+    "id": 20,
+    "subject": "Basic Electrical Engineering Lab"
+  },
+  {
+    "id": 21,
+    "subject": "Basic Electronics"
+  },
+  {
+    "id": 22,
+    "subject": "Basic Electronics Engineering"
+  },
+  {
+    "id": 23,
+    "subject": "Basic Programming Concept"
+  },
+  {
+    "id": 24,
+    "subject": "Biomedical Instrumentation"
+  },
+  {
+    "id": 25,
+    "subject": "Building Materials & Structural Design"
+  },
+  {
+    "id": 26,
+    "subject": "Cloud Computing"
+  },
+  {
+    "id": 27,
+    "subject": "Cmos Design"
+  },
+  {
+    "id": 28,
+    "subject": "Comparative Study Of Literature"
+  },
+  {
+    "id": 29,
+    "subject": "Compiler Design"
+  },
+  {
+    "id": 30,
+    "subject": "Compiler Design Lab"
+  },
+  {
+    "id": 31,
+    "subject": "Computational Complexity"
+  },
+  {
+    "id": 32,
+    "subject": "Computational Geometry"
+  },
+  {
+    "id": 33,
+    "subject": "Computer Architecture"
+  },
+  {
+    "id": 34,
+    "subject": "Computer Graphics"
+  },
+  {
+    "id": 35,
+    "subject": "Computer Network Lab"
+  },
+  {
+    "id": 36,
+    "subject": "Computer Networks"
+  },
+  {
+    "id": 37,
+    "subject": "Computer Networks Lab"
+  },
+  {
+    "id": 38,
+    "subject": "Constitution Of India"
+  },
+  {
+    "id": 39,
+    "subject": "Control System"
+  },
+  {
+    "id": 40,
+    "subject": "Cryptography & Network Security"
+  },
+  {
+    "id": 41,
+    "subject": "Cyber Law And Ethics"
+  },
+  {
+    "id": 42,
+    "subject": "Dairy Food Technology"
+  },
+  {
+    "id": 43,
+    "subject": "Data Analysis"
+  },
+  {
+    "id": 44,
+    "subject": "Data Mining & Data Warehousing"
+  },
+  {
+    "id": 45,
+    "subject": "Data Structure"
+  },
+  {
+    "id": 46,
+    "subject": "Data Structure Lab"
+  },
+  {
+    "id": 47,
+    "subject": "Deep Learning"
+  },
+  {
+    "id": 48,
+    "subject": "Design & Analysis Algorithms"
+  },
+  {
+    "id": 49,
+    "subject": "Design & Analysis Algorithms Lab"
+  },
+  {
+    "id": 50,
+    "subject": "Development And Organizational Behavior"
+  },
+  {
+    "id": 51,
+    "subject": "Digital Electronics"
+  },
+  {
+    "id": 52,
+    "subject": "Digital Electronics Lab"
+  },
+  {
+    "id": 53,
+    "subject": "Digital Image & Video Processing"
+  },
+  {
+    "id": 54,
+    "subject": "Digital System Design"
+  },
+  {
+    "id": 55,
+    "subject": "Digital System Design Lab"
+  },
+  {
+    "id": 56,
+    "subject": "Distributed Systems"
+  },
+  {
+    "id": 57,
+    "subject": "Dsp"
+  },
+  {
+    "id": 58,
+    "subject": "Dsp Lab"
+  },
+  {
+    "id": 59,
+    "subject": "Effective Technical Communication"
+  },
+  {
+    "id": 60,
+    "subject": "Effective Technical Communication Humanities-2"
+  },
+  {
+    "id": 61,
+    "subject": "Electromagnetic Wave"
+  },
+  {
+    "id": 62,
+    "subject": "Electromagnetic Wave Lab"
+  },
+  {
+    "id": 63,
+    "subject": "Electronic Devices"
+  },
+  {
+    "id": 64,
+    "subject": "Electronic Devices Lab"
+  },
+  {
+    "id": 65,
+    "subject": "Electronic Instrumentation And Measurement"
+  },
+  {
+    "id": 66,
+    "subject": "Embedded Systems"
+  },
+  {
+    "id": 67,
+    "subject": "Embeded Computing System"
+  },
+  {
+    "id": 68,
+    "subject": "Energy Science & Engineering"
+  },
+  {
+    "id": 69,
+    "subject": "Engineering Chemistry"
+  },
+  {
+    "id": 70,
+    "subject": "Engineering Chemistry Lab"
+  },
+  {
+    "id": 71,
+    "subject": "Engineering Graphics & Design"
+  },
+  {
+    "id": 72,
+    "subject": "Engineering Mechanics"
+  },
+  {
+    "id": 73,
+    "subject": "Engineering Physics"
+  },
+  {
+    "id": 74,
+    "subject": "Engineering Physics Lab"
+  },
+  {
+    "id": 75,
+    "subject": "English-2"
+  },
+  {
+    "id": 76,
+    "subject": "Environmental Engineering Fundamentals"
+  },
+  {
+    "id": 77,
+    "subject": "Environmental Microbiological Principle"
+  },
+  {
+    "id": 78,
+    "subject": "Environmental Science"
+  },
+  {
+    "id": 79,
+    "subject": "Error Correcting Codes"
+  },
+  {
+    "id": 80,
+    "subject": "Farm Machinery"
+  },
+  {
+    "id": 81,
+    "subject": "Farm Machinery Lab"
+  },
+  {
+    "id": 82,
+    "subject": "Farm Power"
+  },
+  {
+    "id": 83,
+    "subject": "Farm Power Lab"
+  },
+  {
+    "id": 84,
+    "subject": "Fiber Optic Communication"
+  },
+  {
+    "id": 85,
+    "subject": "Fluid Mechanics"
+  },
+  {
+    "id": 86,
+    "subject": "Fluid Mechanics Lab"
+  },
+  {
+    "id": 87,
+    "subject": "Food Chemistry And Microbiologyrefrigeration"
+  },
+  {
+    "id": 88,
+    "subject": "Formal Language & Automata Theory"
+  },
+  {
+    "id": 89,
+    "subject": "Formal Methods For System Verifications"
+  },
+  {
+    "id": 90,
+    "subject": "Fruits & Vegetable Processing"
+  },
+  {
+    "id": 91,
+    "subject": "High Speed Electronics"
+  },
+  {
+    "id": 92,
+    "subject": "History Of Science & Engineering"
+  },
+  {
+    "id": 93,
+    "subject": "History Of Science And Technology In India"
+  },
+  {
+    "id": 94,
+    "subject": "Hydraulic Drives And Controls"
+  },
+  {
+    "id": 95,
+    "subject": "Image Processing"
+  },
+  {
+    "id": 96,
+    "subject": "Indian Music System"
+  },
+  {
+    "id": 97,
+    "subject": "Information Retrieval"
+  },
+  {
+    "id": 98,
+    "subject": "Information Theory And Coding"
+  },
+  {
+    "id": 99,
+    "subject": "Instrumentation And Controlearth Moving"
+  },
+  {
+    "id": 100,
+    "subject": "Internet Of Things"
+  },
+  {
+    "id": 101,
+    "subject": "Introduction To Art And Aesthetics"
+  },
+  {
+    "id": 102,
+    "subject": "Introduction To Mems"
+  },
+  {
+    "id": 103,
+    "subject": "Introduction To Philosophical Thoughts"
+  },
+  {
+    "id": 104,
+    "subject": "Irrigatin & Drainage Engineering"
+  },
+  {
+    "id": 105,
+    "subject": "Irrigatin & Drainage Engineering Lab"
+  },
+  {
+    "id": 106,
+    "subject": "Kinematics & Theory Of Machines"
+  },
+  {
+    "id": 107,
+    "subject": "Land & Water Resource Management"
+  },
+  {
+    "id": 108,
+    "subject": "Machine Design & Drawing"
+  },
+  {
+    "id": 109,
+    "subject": "Machine Design & Drawing Lab"
+  },
+  {
+    "id": 110,
+    "subject": "Machine Learning"
+  },
+  {
+    "id": 111,
+    "subject": "Machinery Ergonomics And Safety"
+  },
+  {
+    "id": 112,
+    "subject": "Mathematics-1"
+  },
+  {
+    "id": 113,
+    "subject": "Mathematics-2"
+  },
+  {
+    "id": 114,
+    "subject": "Mathematics-3"
+  },
+  {
+    "id": 115,
+    "subject": "Mathematics-4"
+  },
+  {
+    "id": 116,
+    "subject": "Matlab"
+  },
+  {
+    "id": 117,
+    "subject": "Mechanical Operatin In Food Processing"
+  },
+  {
+    "id": 118,
+    "subject": "Mechanical Operation In Food Processing Lab"
+  },
+  {
+    "id": 119,
+    "subject": "Microelectronics Technology"
+  },
+  {
+    "id": 120,
+    "subject": "Microprocessor"
+  },
+  {
+    "id": 121,
+    "subject": "Microprocessor & Microcontroller"
+  },
+  {
+    "id": 122,
+    "subject": "Microprocessor & Microcontroller Lab"
+  },
+  {
+    "id": 123,
+    "subject": "Microwave Theory And Techniques"
+  },
+  {
+    "id": 124,
+    "subject": "Mixed Signal Design"
+  },
+  {
+    "id": 125,
+    "subject": "Mobile Communication & Networks"
+  },
+  {
+    "id": 126,
+    "subject": "Mobile Computing"
+  },
+  {
+    "id": 127,
+    "subject": "Nano Electronics"
+  },
+  {
+    "id": 128,
+    "subject": "Network On Chip"
+  },
+  {
+    "id": 129,
+    "subject": "Network Theory"
+  },
+  {
+    "id": 130,
+    "subject": "Network Theory Lab"
+  },
+  {
+    "id": 131,
+    "subject": "Neural Networks"
+  },
+  {
+    "id": 132,
+    "subject": "Operating System"
+  },
+  {
+    "id": 133,
+    "subject": "Operating System Lab"
+  },
+  {
+    "id": 134,
+    "subject": "Operations Research"
+  },
+  {
+    "id": 135,
+    "subject": "Operations Research & Industrial Management"
+  },
+  {
+    "id": 136,
+    "subject": "Organizational Behavior"
+  },
+  {
+    "id": 137,
+    "subject": "Post Harvest Operations"
+  },
+  {
+    "id": 138,
+    "subject": "Post Harvest Operations Lab"
+  },
+  {
+    "id": 139,
+    "subject": "Power Electronics"
+  },
+  {
+    "id": 140,
+    "subject": "Preparatory English"
+  },
+  {
+    "id": 141,
+    "subject": "Probability Theory And Stochastic Process"
+  },
+  {
+    "id": 142,
+    "subject": "Programming For Problem Solving"
+  },
+  {
+    "id": 143,
+    "subject": "Programming For Problem Solving Lab"
+  },
+  {
+    "id": 144,
+    "subject": "Python It Workshop"
+  },
+  {
+    "id": 145,
+    "subject": "Quantum Computing"
+  },
+  {
+    "id": 146,
+    "subject": "Renewable Energy Technology"
+  },
+  {
+    "id": 147,
+    "subject": "Renewable Energy Technology Lab"
+  },
+  {
+    "id": 148,
+    "subject": "Satellite Communication"
+  },
+  {
+    "id": 149,
+    "subject": "Scientific Computing"
+  },
+  {
+    "id": 150,
+    "subject": "Signal & Systems"
+  },
+  {
+    "id": 151,
+    "subject": "Social Networks Analysis"
+  },
+  {
+    "id": 152,
+    "subject": "Soft Computing"
+  },
+  {
+    "id": 153,
+    "subject": "Soft Skills And Interpersonal Communication Ict For Development Human Resource"
+  },
+  {
+    "id": 154,
+    "subject": "Software Engineering"
+  },
+  {
+    "id": 155,
+    "subject": "Soil & Water Conservation Energy"
+  },
+  {
+    "id": 156,
+    "subject": "Soil & Water Conservation Energy Lab"
+  },
+  {
+    "id": 157,
+    "subject": "Soil Science & Soil Mechanics"
+  },
+  {
+    "id": 158,
+    "subject": "Soil Science & Soil Mechanics Lab"
+  },
+  {
+    "id": 159,
+    "subject": "Speech And Audio Processing"
+  },
+  {
+    "id": 160,
+    "subject": "Statistical Methods In Agriculture"
+  },
+  {
+    "id": 161,
+    "subject": "Strength Of Materials"
+  },
+  {
+    "id": 162,
+    "subject": "Surveying & Leveling"
+  },
+  {
+    "id": 163,
+    "subject": "Surveying & Leveling Lab"
+  },
+  {
+    "id": 164,
+    "subject": "Testing & Evaluation Of Tractors & Machines"
+  },
+  {
+    "id": 165,
+    "subject": "Theory Of Computation"
+  },
+  {
+    "id": 166,
+    "subject": "Thermal Operation In Food Processing"
+  },
+  {
+    "id": 167,
+    "subject": "Thermal Operation In Food Processing Lab"
+  },
+  {
+    "id": 168,
+    "subject": "Thermodynamics"
+  },
+  {
+    "id": 169,
+    "subject": "Understanding Culture & Society Through Literature"
+  },
+  {
+    "id": 170,
+    "subject": "Values And Ethics"
+  },
+  {
+    "id": 171,
+    "subject": "Watershed Hydrology"
+  },
+  {
+    "id": 172,
+    "subject": "Watershed Hydrology Lab"
+  },
+  {
+    "id": 173,
+    "subject": "Watershed Planning And Management"
+  },
+  {
+    "id": 174,
+    "subject": "Wavelets"
+  },
+  {
+    "id": 175,
+    "subject": "Web & Internet"
+  },
+  {
+    "id": 176,
+    "subject": "Wireless Sensors Networks"
+  },
+  {
+    "id": 177,
+    "subject": "Workshop/manufacturing Practices"
+  }
+]

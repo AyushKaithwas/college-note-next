@@ -1,0 +1,122 @@
+// Define the database provider and connection.
+datasource db {
+  provider = "postgresql" // You can change this depending on your database.
+  url      = env("POSTGRES_PRISMA_URL")
+}
+
+// Define how the Prisma Client is generated.
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// User database model.
+model User {
+  id                  String         @id @default(cuid())
+  name                String
+  email               String         @unique
+  emailVerified       DateTime?
+  numberOfNotes       Int            @default(0)
+  image               String?
+  hashedPassword      String?
+  accountCreationTime DateTime       @default(now())
+  notes               Note[] // Relation field
+  comments            Comment[] // Relation field
+  Account             Account[]
+  Session             Session[]
+  trendingNotes       TrendingNote[]
+}
+
+// Notes database model.
+model Note {
+  id           Int          @id @default(autoincrement())
+  userId       String       @map("User_id") // Custom column name
+  title        String
+  desc         String?
+  notesLink    String
+  downloads    Int          @default(0)
+  thumbnail    String?
+  noteSize     Int
+  subject      String
+  institution  String
+  fieldOfStudy String
+  semester     String?
+  upvotes      NoteUpvote[]
+  noOfUpvotes  Int          @default(0)
+  time         DateTime     @default(now())
+  user         User         @relation(fields: [userId], references: [id])
+  comments     Comment[] // Relation field
+}
+
+model NoteUpvote {
+  id        Int      @id @default(autoincrement())
+  noteId    Int
+  userId    String   @map("User_id") // Custom column name
+  createdAt DateTime @default(now())
+  note      Note     @relation(fields: [noteId], references: [id])
+}
+
+model TrendingNote {
+  id           Int       @id @default(autoincrement())
+  userId       String    @map("User_id") // Custom column name
+  title        String
+  desc         String?
+  notesLink    String
+  downloads    Int       @default(0)
+  thumbnail    String?
+  noteSize     Int
+  subject      String
+  institution  String
+  fieldOfStudy String
+  semester     String?
+  noOfUpvotes  Int       @default(0)
+  time         DateTime  @default(now())
+  user         User      @relation(fields: [userId], references: [id])
+  comments     Comment[] // Relation field
+}
+
+model Comment {
+  id             Int           @id @default(autoincrement())
+  postId         Int           @map("Post_id") // Custom column name
+  userId         String
+  content        String        @map("Comment_content") // Custom column name
+  time           DateTime      @default(now())
+  user           User          @relation(fields: [userId], references: [id])
+  note           Note          @relation(fields: [postId], references: [id])
+  TrendingNote   TrendingNote? @relation(fields: [trendingNoteId], references: [id])
+  trendingNoteId Int?
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
