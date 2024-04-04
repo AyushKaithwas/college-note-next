@@ -55,7 +55,7 @@ export default function Page(): JSX.Element {
           <div className="flex gap-5 my-4">
             <Link href="/notes">
               <Button
-                className="rounded-[0.5rem]"
+                className="rounded-[0.5rem] text-background hover:bg-[#FFE072]"
                 type="submit"
                 variant="default"
               >

@@ -10,7 +10,7 @@ import { getUser } from "@/actions/get-user-by-id";
 import { useEffect, useState } from "react";
 import { upvoteNote } from "@/actions/upvote-note";
 import { useSession } from "next-auth/react";
-import { redirect, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { checkUpvote } from "@/actions/check-upvote";
 import { incrementDownloads } from "@/actions/increment-downloads";
 
