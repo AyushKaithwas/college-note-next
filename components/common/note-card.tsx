@@ -43,14 +43,22 @@ export function NoteCard({ note }: { note: Note }) {
       }
     })();
     void (async () => {
-      const isUpvoted = await checkUpvote({ userId, noteId: id });
-      if (!isUpvoted) {
-        setUpvoted(false);
+      if (session?.user?.email) {
+        const isUpvoted = await checkUpvote({
+          email: session?.user?.email,
+          noteId: id,
+        });
+        console.log(isUpvoted);
+        if (!isUpvoted) {
+          setUpvoted(false);
+        } else {
+          setUpvoted(isUpvoted);
+        }
       } else {
-        setUpvoted(isUpvoted);
+        setUpvoted(false);
       }
     })();
-  }, [id, userId]);
+  }, [id, session?.user?.email, userId]);
   // const date = time.getDate() < 10 ? `0${time.getDate()}` : time.getDate();
   // const month = time.getMonth() < 10 ? `0${time.getMonth()}` : time.getMonth();
   // const fullDate = `${date}/${month}/${time.getFullYear()}`;
@@ -106,7 +114,10 @@ export function NoteCard({ note }: { note: Note }) {
               } else {
                 setUpvoted(!upvoted);
                 setNoOfUpvotesLocal(noOfUpvotesLocal + (upvoted ? -1 : 1));
-                upvoteNote({ userId, noteId: id });
+                if (session?.user?.email) {
+                  console.log("hello");
+                  upvoteNote({ email: session?.user?.email, noteId: id });
+                }
               }
             }}
           >

@@ -4,22 +4,23 @@ import prisma from "@/lib/prisma";
 import { checkUpvote } from "./check-upvote";
 
 export async function upvoteNote({
-  userId,
+  email,
   noteId,
 }: {
-  userId: string;
+  email: string;
   noteId: number;
 }) {
   const user = await prisma.user.findUnique({
-    where: { id: userId },
+    where: { email: email },
   });
   if (!user) {
     return null;
   }
-  const isUpvoted = await checkUpvote({ userId, noteId });
+  const isUpvoted = await checkUpvote({ email: user.email, noteId });
+  console.log(isUpvoted);
   const noteUpvoteData = {
     noteId: noteId,
-    userId: userId,
+    userId: user.id,
   };
   const note = await prisma.note.updateMany({
     where: {
@@ -31,11 +32,12 @@ export async function upvoteNote({
       },
     },
   });
+  console.log("upvotednote", note);
   if (isUpvoted) {
     const noteUpvote = await prisma.noteUpvote.deleteMany({
       where: {
         noteId: noteId,
-        userId: userId,
+        userId: user.id,
       },
     });
     return noteUpvote;

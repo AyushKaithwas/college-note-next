@@ -25,7 +25,7 @@ export function Navbar({
       <div className="">
         {session ? (
           <>
-            <div className="flex flex-row md:gap-5 justify-center items-center">
+            <div className="flex flex-row gap-5 justify-center items-center">
               <button>
                 <Link href="/upload-notes">
                   <UploadButton

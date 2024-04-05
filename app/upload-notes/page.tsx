@@ -51,13 +51,12 @@ export default function UploadPage() {
   const handleUpload = async (
     event: React.FormEvent<HTMLFormElement>
   ): Promise<void> => {
+    event.preventDefault();
     if (fileStates.length === 0) {
-      event.preventDefault();
       // Show an error message to the user
       alert("Please upload at least one file");
       return;
     }
-    event.preventDefault();
     const formData: FormData = new FormData(event.currentTarget);
     const formValues = {};
     for (const [key, value] of formData.entries()) {

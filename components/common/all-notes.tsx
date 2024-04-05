@@ -8,7 +8,6 @@ import { type Note } from "@/types";
 import { getTrendingNotes, getRecentNotes } from "@/actions/get-all-notes";
 
 export function AllNotes({ notes }: { notes: Note[] | null }): JSX.Element {
-  //   const { data: session } = useSession();
   const [notesData, setNotesData] = useState<Note[] | null>(notes);
   const [recentNotesData, setRecentNotesData] = useState<Note[] | null>(null);
   const [allNotesLoaded, setAllNotesLoaded] = useState<boolean>(false);

@@ -30,8 +30,9 @@ export function GridWrapper({
           left: "120px",
           WebkitTransform: "scaleX(-1)",
           transform: "scaleX(-1)",
-          zIndex: -1,
+          zIndex: -4,
         }}
+        className="md:flex hidden"
         width={200}
       />
     </>

@@ -1,3 +1,5 @@
+"use client";
+
 import { GridWrapper } from "@/components/common/grid-image-wrapper";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -6,8 +8,24 @@ import GoogleLogo from "/oauth-logos/google-logo.svg";
 import LoginButton from "../../components/common/login-button";
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
+import { signIn } from "next-auth/react";
 
 export default function Page(): JSX.Element {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    const formValues = Object.fromEntries(formData);
+    try {
+      const response = await signIn("credentials", {
+        email: formValues.email as string,
+        password: formValues.password as string,
+      });
+      console.log(response);
+    } catch (error) {
+      console.error("An error occurred while signing in", error);
+    }
+  };
+
   return (
     <GridWrapper>
       <div className="w-full h-[92vh] flex md:flex-row flex-col justify-evenly items-center p-10">
@@ -25,18 +43,22 @@ export default function Page(): JSX.Element {
           <p className="md:flex hidden text-secondary -mt-1 mb-3">
             We were starting to miss you
           </p>
-          <form action="submit" className="flex flex-col items-start">
+          <form
+            action="submit"
+            className="flex flex-col items-start"
+            onSubmit={handleSubmit}
+          >
             <Input
+              name="email"
               className="bg-transparent placeholder-disabled rounded-md p-4 w-full"
               placeholder="Email"
               type="text"
-              disabled //todo
             />
             <Input
+              name="password"
               className="bg-transparent placeholder-disabled rounded-md p-4 mt-4 w-full"
               placeholder="Password"
               type="password"
-              disabled //todo
             />
             <button
               className="text-secondary w-full flex justify-end my-4"
@@ -50,7 +72,6 @@ export default function Page(): JSX.Element {
               className="w-full rounded-3xl py-3 font-bold"
               type="submit"
               variant="default"
-              disabled
             >
               Sign In
             </Button>

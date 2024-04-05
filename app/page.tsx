@@ -4,10 +4,13 @@ import { Navbar } from "@/components/common/navbar";
 import { GridWrapper } from "@/components/common/grid-image-wrapper";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/lib/auth";
+import { getSession } from "next-auth/react";
 
 // import styles from "./page.module.css";
 
-export default function Page(): JSX.Element {
+export default async function Page() {
   return (
     <>
       <Navbar logoAlt="College Notes Logo" logoSrc="/logo-small.png" />
