@@ -45,6 +45,7 @@ model User {
   numberOfNotes       Int            @default(0)
   image               String?
   hashedPassword      String?
+  rank                Int            @default(0)
   accountCreationTime DateTime       @default(now())
   notes               Note[] // Relation field
   comments            Comment[] // Relation field

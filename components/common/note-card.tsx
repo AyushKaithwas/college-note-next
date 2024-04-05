@@ -48,7 +48,6 @@ export function NoteCard({ note }: { note: Note }) {
           email: session?.user?.email,
           noteId: id,
         });
-        console.log(isUpvoted);
         if (!isUpvoted) {
           setUpvoted(false);
         } else {
@@ -108,14 +107,12 @@ export function NoteCard({ note }: { note: Note }) {
           <button
             className="flex flex-row items-center gap-1"
             onClick={() => {
-              console.log(session);
               if (!session) {
                 router.push("/login");
               } else {
                 setUpvoted(!upvoted);
                 setNoOfUpvotesLocal(noOfUpvotesLocal + (upvoted ? -1 : 1));
                 if (session?.user?.email) {
-                  console.log("hello");
                   upvoteNote({ email: session?.user?.email, noteId: id });
                 }
               }

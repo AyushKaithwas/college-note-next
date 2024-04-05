@@ -20,9 +20,7 @@ export async function checkUpvote({
       AND: [{ userId: user.id }, { noteId: noteId }],
     },
   });
-  console.log("note", note);
-  console.log("userid", user.id);
-  console.log("noteid", noteId);
+
   if (note[0]?.userId === user.id) {
     return true;
   }

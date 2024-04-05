@@ -20,7 +20,6 @@ export default function Page(): JSX.Element {
         email: formValues.email as string,
         password: formValues.password as string,
       });
-      console.log(response);
     } catch (error) {
       console.error("An error occurred while signing in", error);
     }

@@ -7,10 +7,18 @@ import Link from "next/link";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { getSession } from "next-auth/react";
+import { getTrendingNotes } from "@/actions/get-all-notes";
+import prisma from "@/lib/prisma";
 
 // import styles from "./page.module.css";
 
 export default async function Page() {
+  const mostUpvotedUsers = await prisma.user.findMany({
+    where: {
+      OR: [{ rank: 1 }, { rank: 2 }, { rank: 3 }],
+    },
+  });
+  console.log(mostUpvotedUsers);
   return (
     <>
       <Navbar logoAlt="College Notes Logo" logoSrc="/logo-small.png" />
@@ -76,40 +84,27 @@ export default async function Page() {
             </Link>
           </div>
           <div className="flex flex-col items-center gap-4 mt-10">
-            <p className="text-secondary underline underline-offset-4 text-center">
-              Top Contributors
+            <p className="text-secondary underline underline-offset-[6px] text-center">
+              You all are the most upvoted. Thank you for your contribution!
             </p>
             <div className="flex gap-7">
-              <div className="w-20 h-20 flex flex-col items-center text-center">
-                <Image
-                  alt="Picture of the author"
-                  height={60}
-                  src="/avatar1.png"
-                  style={{ clipPath: "circle()" }}
-                  width={60}
-                />
-                <p className="text-xs py-2">C.V. Raman</p>
-              </div>
-              <div className="w-20 h-20 flex flex-col items-center text-center">
-                <Image
-                  alt="Picture of the author"
-                  height={60}
-                  src="/avatar2.png"
-                  style={{ clipPath: "circle()" }}
-                  width={60}
-                />
-                <p className="text-xs py-2">Dr. Asima Chatterjee</p>
-              </div>
-              <div className="w-20 h-20 flex flex-col items-center text-center">
-                <Image
-                  alt="Picture of the author"
-                  height={60}
-                  src="/avatar3.png"
-                  style={{ clipPath: "circle()" }}
-                  width={60}
-                />
-                <p className="text-xs py-2">Venkatraman Ramakrishnan</p>
-              </div>
+              {mostUpvotedUsers.map((user) => {
+                return (
+                  <div
+                    key={user.id}
+                    className="w-20 h-20 flex flex-col items-center text-center"
+                  >
+                    <Image
+                      alt="Picture of the author"
+                      height={60}
+                      src={user.image || "/user-image-anonymous.svg"}
+                      style={{ clipPath: "circle()" }}
+                      width={60}
+                    />
+                    <p className="text-xs py-2">{user.name}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </main>
@@ -148,39 +143,26 @@ export default async function Page() {
 
           <div className="flex flex-col items-center gap-4">
             <p className="text-secondary underline underline-offset-4 text-center">
-              Top Contributors
+              You are the most upvoted. Thank you for your contribution!
             </p>
             <div className="flex gap-7">
-              <div className="w-20 h-[120px] flex flex-col items-center text-center">
-                <Image
-                  alt="Picture of the author"
-                  height={60}
-                  src="/avatar1.png"
-                  style={{ clipPath: "circle()" }}
-                  width={60}
-                />
-                <p className="text-xs py-2">C.V. Raman</p>
-              </div>
-              <div className="w-20 h-[120px] flex flex-col items-center text-center">
-                <Image
-                  alt="Picture of the author"
-                  height={60}
-                  src="/avatar2.png"
-                  style={{ clipPath: "circle()" }}
-                  width={60}
-                />
-                <p className="text-xs py-2">Dr. Asima Chatterjee</p>
-              </div>
-              <div className="w-20 h-[120px] flex flex-col items-center text-center">
-                <Image
-                  alt="Picture of the author"
-                  height={60}
-                  src="/avatar3.png"
-                  style={{ clipPath: "circle()" }}
-                  width={60}
-                />
-                <p className="text-xs py-2">Venkatraman Ramakrishnan</p>
-              </div>
+              {mostUpvotedUsers.map((user) => {
+                return (
+                  <div
+                    key={user.id}
+                    className="w-20 h-[120px] flex flex-col items-center text-center"
+                  >
+                    <Image
+                      alt="Picture of the author"
+                      height={60}
+                      src={user.image || "/user-image-anonymous.svg"}
+                      style={{ clipPath: "circle()" }}
+                      width={60}
+                    />
+                    <p className="text-xs py-2">{user.name}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </main>

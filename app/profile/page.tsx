@@ -3,6 +3,8 @@ import { redirect } from "next/navigation";
 import { authOptions } from "@/lib/auth";
 import { ProfileNotes } from "@/components/common/profile-notes";
 import { getUsersNotes } from "@/actions/get-user-and-notes";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 const pageSize = 12;
 

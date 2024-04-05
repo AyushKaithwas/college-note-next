@@ -17,7 +17,6 @@ export async function upvoteNote({
     return null;
   }
   const isUpvoted = await checkUpvote({ email: user.email, noteId });
-  console.log(isUpvoted);
   const noteUpvoteData = {
     noteId: noteId,
     userId: user.id,
@@ -32,7 +31,6 @@ export async function upvoteNote({
       },
     },
   });
-  console.log("upvotednote", note);
   if (isUpvoted) {
     const noteUpvote = await prisma.noteUpvote.deleteMany({
       where: {
