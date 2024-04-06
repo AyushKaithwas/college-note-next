@@ -140,31 +140,33 @@ export default async function Page() {
             </Link>
           </div>
 
-          <div className="flex flex-col items-center gap-4">
-            <p className="text-secondary underline underline-offset-4 text-center md:text-base text-xs">
-              You are the most upvoted. Thank you for your contribution!
-            </p>
-            <div className="flex md:gap-7 gap-4">
-              {mostUpvotedUsers.map((user) => {
-                return (
-                  <div
-                    key={user.id}
-                    className="w-20 h-[120px] flex flex-col items-center text-center"
-                  >
-                    <Image
-                      alt="Picture of the author"
-                      height={60}
-                      src={user.image || "/user-image-anonymous.svg"}
-                      className="w-9 h-9"
-                      style={{ clipPath: "circle()" }}
-                      width={60}
-                    />
-                    <p className="text-xs py-2">{user.name}</p>
-                  </div>
-                );
-              })}
+          {mostUpvotedUsers.length > 0 ? (
+            <div className="flex flex-col items-center gap-4">
+              <p className="text-secondary underline underline-offset-4 text-center md:text-base text-xs">
+                You are the most upvoted. Thank you for your contribution!
+              </p>
+              <div className="flex md:gap-7 gap-4">
+                {mostUpvotedUsers.map((user) => {
+                  return (
+                    <div
+                      key={user.id}
+                      className="w-20 h-[120px] flex flex-col items-center text-center"
+                    >
+                      <Image
+                        alt="Picture of the author"
+                        height={60}
+                        src={user.image || "/user-image-anonymous.svg"}
+                        className="w-9 h-9"
+                        style={{ clipPath: "circle()" }}
+                        width={60}
+                      />
+                      <p className="text-xs py-2">{user.name}</p>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
-          </div>
+          ) : null}
         </main>
       </GridWrapper>
     </>
