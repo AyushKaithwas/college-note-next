@@ -9,10 +9,19 @@ import LoginButton from "../../components/common/login-button";
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { signIn } from "next-auth/react";
+import { useState } from "react";
+import { cn } from "@/lib/utils";
+import { useSearchParams } from "next/navigation";
 
-export default function Page(): JSX.Element {
+export default function Page() {
+  const searchParams = useSearchParams();
+  const [signingIn, setSigningIn] = useState(false);
+  const [signInFailed, setSignInFailed] = useState(
+    searchParams.get("error") === "CredentialsSignin"
+  );
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    setSigningIn(true);
     const formData = new FormData(event.currentTarget);
     const formValues = Object.fromEntries(formData);
     try {
@@ -21,6 +30,8 @@ export default function Page(): JSX.Element {
         password: formValues.password as string,
       });
     } catch (error) {
+      setSigningIn(false);
+      setSignInFailed(true);
       console.error("An error occurred while signing in", error);
     }
   };
@@ -71,9 +82,18 @@ export default function Page(): JSX.Element {
               className="w-full rounded-3xl py-3 font-bold"
               type="submit"
               variant="default"
+              disabled={signingIn}
             >
               Sign In
             </Button>
+            <h2
+              className={cn(
+                "mx-auto text-destructive font-bold text-xl py-5",
+                signInFailed ? "flex" : "hidden"
+              )}
+            >
+              Sign In Failed, Try Again
+            </h2>
             <div className="flex flex-col items-center justify-center text-center">
               <p className="text-secondary  mt-2">
                 Don&apos;t have an account?{" "}

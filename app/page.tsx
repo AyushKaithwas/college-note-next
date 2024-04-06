@@ -83,16 +83,16 @@ export default async function Page() {
               </Button>
             </Link>
           </div>
-          <div className="flex flex-col items-center gap-4 mt-10">
+          <div className="flex flex-col items-center gap-6 mt-16">
             <p className="text-secondary underline underline-offset-[6px] text-center">
               You all are the most upvoted. Thank you for your contribution!
             </p>
-            <div className="flex gap-7">
+            <div className="flex gap-10">
               {mostUpvotedUsers.map((user) => {
                 return (
                   <div
                     key={user.id}
-                    className="w-20 h-20 flex flex-col items-center text-center"
+                    className="h-20 flex flex-col items-center text-center"
                   >
                     <Image
                       alt="Picture of the author"

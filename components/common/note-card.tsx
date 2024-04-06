@@ -13,6 +13,7 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { checkUpvote } from "@/actions/check-upvote";
 import { incrementDownloads } from "@/actions/increment-downloads";
+import { ScrollArea } from "../ui/scroll-area";
 
 dayjs.extend(advancedFormat);
 
@@ -84,7 +85,9 @@ export function NoteCard({ note }: { note: Note }) {
             <span className="underline underline-offset-4">{noteCreator}</span>
           </p>
         </div>
-        {desc !== "" ? <p className=" text-xs">{desc}</p> : null}
+        {desc !== "" ? (
+          <ScrollArea className=" text-xs max-h-[10rem]">{desc}</ScrollArea>
+        ) : null}
         <div className="flex flex-row gap-3 items-center">
           <button className="flex flex-row items-center gap-1">
             <MessageSquare size={20} />

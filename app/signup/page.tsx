@@ -11,6 +11,7 @@ import axios from "axios";
 import { cookies } from "next/headers";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { signIn } from "next-auth/react";
 
 export default function Page(): JSX.Element {
   const router = useRouter();
@@ -23,6 +24,14 @@ export default function Page(): JSX.Element {
     const formValues = Object.fromEntries(formData);
     try {
       const res = await axios.post("/api/auth/signup", formValues);
+      try {
+        const response = await signIn("credentials", {
+          email: formValues.email as string,
+          password: formValues.password as string,
+        });
+      } catch (error) {
+        console.error("An error occurred while signing in", error);
+      }
       router.push("/");
     } catch (error) {
       setSigningUp(false);
