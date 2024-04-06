@@ -18,7 +18,6 @@ export default async function Page() {
       OR: [{ rank: 1 }, { rank: 2 }, { rank: 3 }],
     },
   });
-  console.log(mostUpvotedUsers);
   return (
     <>
       <Navbar logoAlt="College Notes Logo" logoSrc="/logo-small.png" />
@@ -142,10 +141,10 @@ export default async function Page() {
           </div>
 
           <div className="flex flex-col items-center gap-4">
-            <p className="text-secondary underline underline-offset-4 text-center">
+            <p className="text-secondary underline underline-offset-4 text-center md:text-base text-xs">
               You are the most upvoted. Thank you for your contribution!
             </p>
-            <div className="flex gap-7">
+            <div className="flex md:gap-7 gap-4">
               {mostUpvotedUsers.map((user) => {
                 return (
                   <div
@@ -156,6 +155,7 @@ export default async function Page() {
                       alt="Picture of the author"
                       height={60}
                       src={user.image || "/user-image-anonymous.svg"}
+                      className="w-9 h-9"
                       style={{ clipPath: "circle()" }}
                       width={60}
                     />

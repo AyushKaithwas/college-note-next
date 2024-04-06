@@ -58,7 +58,7 @@ export function AllNotes({ notes }: { notes: Note[] | null }): JSX.Element {
 
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="flex flex-col w-[70%] min-w-[300px] max-w-[800px] items-left justify-center py-10 text-secondary ">
+      <div className="flex flex-col w-[70%] max-w-[800px] items-left justify-center md:py-10 text-secondary ">
         <Salutation />
         <div className="w-full flex flex-row  justify-between ems-center gap-5 border border-disabled rounded-md px-6 py-3">
           <div className="flex flex-row gap-5 items-center" ref={ref}>

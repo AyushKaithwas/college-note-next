@@ -66,19 +66,19 @@ export function NoteCard({ note }: { note: Note }) {
   const fullDate = dayjs(time).format("Do MMMM YYYY");
 
   return (
-    <div className="w-full border border-disabled rounded-md p-10 flex flex-row gap-5">
+    <div className="w-full border border-disabled rounded-md md:p-10 p-4 flex flex-row gap-5">
       <Image
         alt="thumbnail"
-        className="w-[150px] h-[200px] object-cover rounded-[0.5rem]"
+        className="md:w-[150px] md:h-[200px] w-[75px] h-[100px] object-cover rounded-[0.5rem]"
         height={200}
         src={thumbnail?.toString() || "/default-thumbnail.png"}
         width={200}
       />
-      <div className="flex flex-col flex-grow justify-between w-full py-5">
-        <div className="flex flex-row items-center justify-between">
+      <div className="flex flex-col flex-grow gap-2 justify-between md:w-full">
+        <div className="flex md:flex-row gap-1 flex-col md:items-center items-start justify-between">
           <div className="flex flex-col">
-            <h1 className="font-bold text-xl">{title}</h1>
-            <p className=" text-sm">{fullDate}</p>
+            <h1 className="font-bold md:text-xl text-base">{title}</h1>
+            <p className=" md:text-sm text-xs">{fullDate}</p>
           </div>
           <p className=" text-xs italic">
             by{" "}
@@ -86,9 +86,11 @@ export function NoteCard({ note }: { note: Note }) {
           </p>
         </div>
         {desc !== "" ? (
-          <ScrollArea className=" text-xs max-h-[10rem]">{desc}</ScrollArea>
+          <ScrollArea className=" text-xs md:w-full max-h-[10rem]">
+            {desc}
+          </ScrollArea>
         ) : null}
-        <div className="flex flex-row gap-3 items-center">
+        <div className="flex flex-row gap-4 items-center">
           <button className="flex flex-row items-center gap-1">
             <MessageSquare size={20} />
             <p className=" text-xs">0</p>

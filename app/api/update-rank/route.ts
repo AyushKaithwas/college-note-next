@@ -38,7 +38,6 @@ export async function GET() {
         rank: sortedNoteCreatorsArray.indexOf(noteCreator) + 1,
       },
     });
-    console.log(user);
   });
   return NextResponse.json({ sortedNoteCreatorsArray });
 }

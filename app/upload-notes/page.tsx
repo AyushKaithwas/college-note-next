@@ -101,10 +101,10 @@ export default function UploadPage() {
   };
 
   return (
-    <div className="w-full flex flex-col items-center min-h-[80vh] py-10">
+    <div className="w-full flex flex-col items-center min-h-[80vh] md:py-10">
       <Suspense fallback={<Loading />}>
         <Salutation />
-        <div className="flex flex-col w-[70%] min-w-[300px] max-w-[550px] items-left justify-between py-10 text-secondary ">
+        <div className="flex flex-col w-[70%] min-w-[300px] max-w-[550px] items-left justify-between md:py-10 text-secondary ">
           <div className="flex flex-col  w-full border border-tertiary rounded-md p-10">
             {!uploadSuccessful ? (
               <form className="flex flex-col gap-3" onSubmit={handleUpload}>
