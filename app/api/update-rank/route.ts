@@ -39,5 +39,5 @@ export async function GET() {
       },
     });
   });
-  return NextResponse.json({ sortedNoteCreatorsArray });
+  return NextResponse.json({ sortedNoteCreatorsArray }, { status: 200 });
 }

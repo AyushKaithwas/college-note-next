@@ -1,11 +1,7 @@
 {
   "crons": [
     {
-      "path": "/api/update-trending",
-      "schedule": "0 3 * * 0"
-    },
-    {
-      "path": "/api/update-rank",
+      "path": "/api/update-rank-and-trending",
       "schedule": "0 3 * * 0"
     }
   ]
