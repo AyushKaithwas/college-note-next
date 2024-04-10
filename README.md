@@ -1,33 +1,60 @@
+College Note Hub
+=================
+
+Welcome to College Note, a dedicated platform for students and educators alike to share, discover, and discuss notes in PDF format. Dive into a vast collection of knowledge, share your insights, and connect with like-minded individuals.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+Features (Work in progress)
+--------
 
-First, run the development server:
+*   **PDF Uploads**: Seamlessly upload your lecture notes, assignments, and other educational materials in PDF format.
+*   **Notes Discovery**: Browse notes shared by other users, categorized by subjects, topics, and more.
+*   **Social Interactions**: Engage with the community. Comment on, like, and share notes that you find valuable.
+*   **Profile Management**: Personalize your profile, manage your uploads, and curate your collection of notes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Getting Started
+---------------
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prerequisites
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Ensure you have the following installed:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+*   Node.js
 
-## Learn More
+### Setup
 
-To learn more about Next.js, take a look at the following resources:
+1.  Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+using pnpm:
+
+bashCopy code
+
+`pnpm install`
+
+3.  Start the development server:
+
+bashCopy code
+
+`pnpm run dev`
+
+Visit `http://localhost:3000` to see the platform in action!
+
+Contribution
+------------
+
+We welcome contributions from the community. If you'd like to contribute, please fork the repository and create a pull request, or open an issue to discuss potential changes/additions.
+
+
+Support
+-------
+
+If you encounter any issues or have questions, please open an issue or contact the maintainer at `ayush.91011@email.com`.
+
+Thank you for being a part of College Note. Let's make learning more collaborative and fun! 📚🚀
+
 
 ## Deploy on Vercel
 
